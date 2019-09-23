@@ -1,0 +1,64 @@
+body {
+  color: yellow;
+  background-color: indigo;
+
+}
+p {
+  color: rgb(250, 0, 0);
+background-color: yellow;
+font-size: 22px;
+margin-left: 15px;
+margin-right: 15px;
+
+}
+h1 {
+  color: yellow;
+  opacity: 1.0;
+  font-size: 100px;
+margin-top: 21px;
+margin-bottom: 21px;
+
+}
+
+nav {
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 36px;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+a:link {
+  color: #00ff00;
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+a:visited {
+  color: #ff0000
+}
+a:active {
+  color: #00ff00ff
+}
+a:hover {
+  color: #ffff00
+}
+#jeffgordon
+{
+  font-size: 28px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: red;
+  background-color: black;
+}
+
+#wrapper {
+	margin: 1em auto;
+	padding: 18px;
+	width: 1450px;
+	border: 14px solid #ff0000;
+}
