@@ -1,0 +1,92 @@
+body {
+   background-color: #000000;
+   background-image: url(paperimage.png);
+   background-repeat: cover;
+   background-position: center;
+
+
+  }
+.waino {
+  color: black;
+  text-align: center;
+  font-family: arial;
+  margin-bottom: 0px;
+  font-weight: bold;
+
+}
+.underline {
+  border-bottom: 1px solid black;
+  width: 265px;
+}
+
+.edman {
+  text-align: center;
+  color: rgb(84,129,141);
+  font-family: arial;
+}
+#beernuts {
+  text-align: center;
+  color: black;
+  font-family: arial;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.miller {
+  text-align: center;
+ color: rgb(84,129,141);
+ font-family: arial;
+ line-height: 6px;
+ padding-bottom: 0px;
+ margin-bottom: 0px;
+}
+.jack {
+  text-align: center;
+  color: black;
+  font-family: arial;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+
+.molina {
+  border-bottom: 1px solid rgb(84,129,141);
+  padding-top: 5px;
+  margin-top: 4px;
+  padding-bottom: -10px;
+  margin-bottom: -10px;
+  width: 100px;
+  display: block;
+
+}
+.remote {
+  color: black;
+  font-size: 54px;
+  text-align: center;
+  font-family: arial;
+width: 350px;
+
+
+  }
+.banner
+{
+  display: block;
+  padding-left: 0px;
+}
+.website
+{
+  text-align: center;
+  color: rgb(84,129,141);
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+div
+{
+  border-bottom: 10px solid rgb(84,129,141);
+  border-top: 10px solid rgb(84,129,141);
+  padding: 0px;
+  display: block;
+
+}
