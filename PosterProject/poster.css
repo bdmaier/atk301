@@ -1,0 +1,118 @@
+body {
+   background-color: #000000;
+   background-image: url(paperimage.png);
+
+   border-left: 360px solid black;
+   border-right: 360px solid black;
+   padding: auto;
+   margin: auto;
+   font-size: 200%
+
+
+
+
+  }
+.waino {
+  color: black;
+  text-align: center;
+  font-family: helvetica;
+  margin-bottom: 0px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: black;
+
+}
+
+
+.edman {
+  text-align: center;
+  color: rgb(84,129,141);
+  font-family: helvetica;
+}
+#beernuts {
+  text-align: center;
+  color: black;
+  font-family: helvetica;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+}
+.miller {
+  text-align: center;
+ color: rgb(84,129,141);
+ font-family: arial;
+ line-height: 6px;
+ padding-bottom: 0px;
+ margin-bottom: 0px;
+}
+.jack {
+  text-align: center;
+  color: black;
+  font-family: helvetica;
+  padding-top: 0px;
+  margin-top: 0px;
+
+}
+
+.molina {
+  text-decoration: underline;
+  text-decoration-color: rgb(84,129,141);
+  padding-top: 5px;
+  margin-top: 4px;
+  padding-bottom: -15px;
+  margin-bottom: -15px;
+
+  display: block;
+
+}
+.remote {
+  color: black;
+  text-align: center;
+  font-family: helvetica;
+  width: 350px;
+  font-size: 85px;
+  line-height: 70px;
+
+
+  }
+.banner
+{
+  display: block;
+  padding-left: 0px;
+}
+.website
+{
+  text-align: center;
+  color: rgb(84,129,141);
+  font-family: arial;
+
+  margin-top: 0px;
+  padding-top: 0px;
+}
+div
+{
+  border-bottom: 14px solid rgb(84,129,141);
+  border-top: 14px solid rgb(84,129,141);
+  padding: 0px;
+
+
+}
+a:link
+{
+  font-family: helvetica;
+  color: rgb(84,129,141);
+  font-weight: bold;
+  text-decoration: none;
+
+}
+a:active {
+  color: #ffffff;
+
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+img{
+  width: 600px;
+}
