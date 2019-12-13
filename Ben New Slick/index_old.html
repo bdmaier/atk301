@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kendall's Portfolios</title>
+   <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+  <style type="text/css">
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .slider {
+        width: 80%;
+        margin: 20px;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <div id="start">
+    <header>
+    <h1>Welcome To My Portfolio Website!</h1>
+  </header>
+
+    <nav>
+    <ul>
+        <li><a href="http://my.ilstu.edu/~rnvalen/Summer2014/02.datastore.html" target="_blank">Css Poster</a></li>
+        <li><a href="http://my.ilstu.edu/~rnvalen/Summer2014/03.BasicPageStructure.html" target="_blank">Advanced Css</a></li>
+    </ul>
+  </nav>
+<main>
+
+  <h2>Css Poster!</h2>
+
+  <section class="lazy slider" data-sizes="50vw">
+    <div>
+      <img data-lazy="170913211413-03-rohingya-portraits-dsc05069-exlarge-34" data-srcset="170913211413-03-rohingya-portraits-dsc05069-exlarge-34 650w" data-sizes="100vw">
+    </div>
+    <div>
+      <img data-lazy="170913211413-03-rohingya-portraits-dsc05069-exlarge-34" data-srcset="170913211413-03-rohingya-portraits-dsc05069-exlarge-34 650w" data-sizes="100vw">
+    </div>
+    <div>
+      <img data-lazy="http://placehold.it/350x300?text=3-350w"  data-srcset="http://placehold.it/650x300?text=3-650w 650w" data-sizes="100vw">
+    </div>
+    <div>
+      <img data-lazy="http://placehold.it/350x300?text=4-350w"  data-srcset="http://placehold.it/650x300?text=4-650w 650w" data-sizes="100vw">
+    </div>
+    <div>
+      <img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w" data-sizes="100vw">
+    </div>
+    <div>
+  </div>
+  </section>
+
+    <p class="georgia">Here's an image of the HTML code for this poster! This was how we first dove into using css and I got to learn about text colors and adding images!</p>
+
+    <p class="georgia">Here's a bit of the CSS style coding for this project!</p>
+
+    <p class="gergia">The links in the following paragraphs should be red, bold, and without an underline in their "normal" (visted or unvisited) state. The links should turn blue with an underline when they are hovered over.</p>
+
+    <p>Duis tattooed tofu, anim occaecat delectus banh mi freegan tempor nihil velit keytar tumblr DIY terry richardson. Excepteur nesciunt <a href="http://en.wikipedia.org/wiki/Helvetica" target="_blank"class="red">helvetica</a>, trust fund master cleanse assumenda keffiyeh raw denim consectetur vegan stumptown salvia. You probably haven't heard of them lo-fi aesthetic nostrud, high life <a href="http://www.mcsweeneys.net/" target="_blank"class="red">mcsweeney's</a> consectetur cred quinoa id sed tumblr photo booth. American apparel nulla yr banh mi culpa consectetur. Et thundercats seitan next level. Twee ethical nesciunt four loko whatever put a bird on it. Master cleanse pariatur dolor, put a bird on it twee locavore assumenda PBR.</p>
+
+    <p>Irure irony banh mi, gentrify letterpress aliqua chambray marfa portland ea messenger bag. Marfa vero portland, quis messenger bag artisan placeat aute proident +1 qui twee iphone. American apparel elit eiusmod, quinoa accusamus pariatur marfa. Esse shoreditch commodo, tofu mollit anim scenester <a href="http://www.ifc.com/portlandia/" target="_blank"class="red">portland</a> organic. Cardigan 3 wolf moon in next level, nisi id farm-to-table you probably haven't heard of them aliqua art party brooklyn mcsweeney's stumptown williamsburg marfa. <a href="http://en.wikipedia.org/wiki/Do_it_yourself" target="_blank"class="red">DIY</a> fanny pack mlkshk, sapiente single-origin coffee dolore yr commodo vinyl. Adipisicing carles bicycle rights, assumenda organic portland blog commodo skateboard williamsburg.</p>
+
+</main>
+<footer>
+    <p>Contact!</p>
+      <p> Email- kendall.mc@yahoo.com</P>
+        <p>Illinois State University, Arts Technology Major</p>
+</footer>
+
+</div>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+
+      $(".lazy").slick({
+        lazyLoad: 'ondemand', // ondemand progressive anticipated
+        infinite: true
+      });
+    });
+</script>
+
+</body>
+</html>
